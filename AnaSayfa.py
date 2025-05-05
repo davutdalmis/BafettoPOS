@@ -32,7 +32,7 @@ import siparis  # SiparisPage sınıfını içe aktar
 
 # Firebase başlatma (AnaSayfa.py'de de gerekli)
 try:
-    cred = credentials.Certificate("bafetto-d00f2-firebase-adminsdk-fbsvc-408b279d45.json")
+    cred = credentials.Certificate("firebase/firebase-adminsdk.json")
     if not firebase_admin.get_app():
         firebase_admin.initialize_app(cred)
     db = firestore.client()
@@ -91,6 +91,7 @@ class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
         self.setWindowTitle("BafettoPOS")
+        self.setWindowIcon(QIcon("images/bafetto.png"))
         
         self.showMaximized()
         self.setWindowFlags(self.windowFlags() & ~Qt.WindowMinimizeButtonHint)

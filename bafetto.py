@@ -10,7 +10,7 @@ from firebase_admin import credentials, firestore
 
 # Firestore bağlantısını bağımsız olarak başlat
 try:
-    cred = credentials.Certificate("bafetto-d00f2-firebase-adminsdk-fbsvc-408b279d45.json")
+    cred = credentials.Certificate("firebase/firebase-adminsdk.json")
     if not firebase_admin._apps:
         firebase_admin.initialize_app(cred)
     db = firestore.client()
