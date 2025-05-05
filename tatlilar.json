@@ -1,0 +1,7 @@
+[
+    {"name": "Tiramisu", "size": "Porsiyon", "price": 60.0},
+    {"name": "Cheesecake", "size": "Dilim", "price": 70.0},
+    {"name": "Sufle", "size": "Porsiyon", "price": 80.0},
+    {"name": "Baklava", "size": "2 Dilim", "price": 50.0},
+    {"name": "Magnolia", "size": "Küçük", "price": 65.0}
+]

@@ -1,0 +1,7 @@
+[
+    {"name": "Çoban Salata", "size": "Küçük", "price": 50.0},
+    {"name": "Akdeniz Salata", "size": "Orta", "price": 70.0},
+    {"name": "Sezar Salata", "size": "Büyük", "price": 90.0},
+    {"name": "Roka Salata", "size": "Küçük", "price": 60.0},
+    {"name": "Ton Balıklı Salata", "size": "Orta", "price": 85.0}
+]

@@ -1,0 +1,7 @@
+[
+    {"name": "Kola", "size": "33 cl", "price": 30.0},
+    {"name": "Ayran", "size": "20 cl", "price": 20.0},
+    {"name": "Su", "size": "50 cl", "price": 15.0},
+    {"name": "Limonata", "size": "25 cl", "price": 35.0},
+    {"name": "Ice Tea", "size": "33 cl", "price": 30.0}
+]
